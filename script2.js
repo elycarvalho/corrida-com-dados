@@ -74,7 +74,7 @@ function animaDados1() {
         i = 0
         let numAleatorio1 = Math.trunc(Math.random() * 6)
         imgDadoPlayer1.innerHTML = '<img src=./' + dado1[numAleatorio1] + '>'
-        movimento1 = movimento1 + (numAleatorio1 * 10)
+        movimento1 = movimento1 + (numAleatorio1 * 3)
         if(numAleatorio1 === 0) {movimento1++}
         corredor1.style.left = movimento1 + '%'
         console.log(movimento1)
@@ -94,7 +94,7 @@ function animaDados2() {
         i = 0
         let numAleatorio2 = Math.trunc(Math.random() * 6)
         imgDadoPlayer2.innerHTML = '<img src=./' + dado2[numAleatorio2] + '>'
-        movimento2 = movimento2 + (numAleatorio2 * 10)
+        movimento2 = movimento2 + (numAleatorio2 * 3)
         if(numAleatorio2 === 0) {movimento2++}
         corredor2.style.left = movimento2 + '%'
         console.log(movimento2)
