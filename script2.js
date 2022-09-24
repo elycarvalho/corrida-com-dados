@@ -65,7 +65,6 @@ function giraDado2(){
     }   
 }
 
-
 function animaDados1() {  
     imgDadoPlayer1.innerHTML = '<img src=./' + dado1[i] + '>'
     i++
@@ -82,8 +81,7 @@ function animaDados1() {
             vencedor = '1'
           finaliza()
         }
-    }   
-    
+    }     
 }
 
 function animaDados2() {  
