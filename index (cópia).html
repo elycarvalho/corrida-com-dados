@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dicee</title>
+	<script defer src="script2.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container-jogo">
+    <div id="container-dados">
+      <div id="img-dado1">
+      	<img src="img/dado16.png">
+      </div>
+      
+      <div id="img-dado2">
+      	<img src="img/dado26.png"><br>
+      </div>
+    </div>
+    <div id="container-botoes">
+      <button id="btn-gira-dado1">Jogador 1</button>
+      <button id="btn-gira-dado2">Jogador 2</button>
+    </div>
+    <div id="pista1">
+      <h1>1</h1>
+      <div id="corredor1"><img src="img/corredor.gif" width="120"></div>
+    </div>
+
+    <div id="pista2">
+      <h1>2</h1>
+      <div id="corredor2"><img src="img/corredora.gif" width="120"></div>
+    </div>
+
+    <div id="final-pista">
+      <h1>1</h1>
+      <h1>2</h1>
+    </div>
+
+    <button id="btn-reinicia">Jogar novamente</button>
+  </div>
+
+  <div id="tela-final">
+    <!--<div id="tela-final" style="display:none">-->
+    <h1>O Jogador<span id="vencedor"></span> venceu</h1>
+    <img src="img/winner.gif" width="180px"><br>
+    <button id="btn-reinicia2">Jogar novamente</button>
+  </div>
+</body>
+</html>
